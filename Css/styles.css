@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin-top: 10rem;
+    background-image: url(../Pics/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    padding: 2rem 0rem;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    position: fixed;
+    top: 0;
+}
+
+.Logo {
+    display: inline-block;
+    margin-left: 5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ce1212;
+}
+
+.Logo:hover {
+    color: cornflowerblue;
+}
+
+.links {
+    margin-left: 70%;
+    display: inline-block;
+    right: 3rem;
+    left: 5rem;
+}
+
+.links *{
+    padding-right: 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.links *:hover{
+    color: darkgreen;
+}
+
+.words *{
+    margin: 5rem auto 1rem auto;
+}
+
+.name {
+    font-size: 2rem;
+    color: #5b8a72;
+}
+
+.Ans {
+    color: ivory;
+}

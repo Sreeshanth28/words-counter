@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Cal</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <script>
+        function myfunc() {
+            var x = document.getElementById("texty").value;
+            x = x.replace(' ', '\n');
+            var l = x.split(' ').length;
+            document.getElementById('demo').innerHTML = l;
+        }
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <a class="Logo" href="https://sreeshanth28.github.io/Shan_CV/">SHAN</a>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="https://github.com/Sreeshanth28">Github</a>
+        </div>
+    </div>
+
+    <div class="words">
+        <form action="" enctype="text/plain">
+            <table cellspacing='40'>
+                <tr>
+                    <td class="name"><label for="">Word Counter</label></td>
+                    <td><textarea id="texty" style="margin: 0px; width: 744px; height: 360px;" name="Paragraph"  cols="30" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </form>
+        <button style="margin-left: 50%; margin-top: 0rem;" onclick="myfunc()">Calculate</button>
+        <p class="Ans">Total Words:- <span id="demo">0</span></p>
+    </div>    
+</body>
+</html>
